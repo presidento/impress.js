@@ -49,11 +49,15 @@ EXAMPLES AND DEMOS
 
 [12412.org presentation to Digibury](http://extra.12412.org/digibury/) by Stephen Fulljames [@fulljames](http://twitter.com/fulljames)
 
+[Data center virtualization with Wakame-VDC](http://wakame.jp/wiki/materials/20120114_TLUG/) by Andreas Kieckens [@Metallion98](https://twitter.com/#!/Metallion98)
+
 ### Websites and portfolios
 
 [lioshi.com](http://lioshi.com) by @lioshi
 
 [alingham.com](http://www.alingham.com) by Al Ingham [@alingham](http://twitter.com/alingham)
+
+[museum140](http://www.youtube.com/watch?v=ObLiikJEt94) Shorty Award promo video [entirely made with ImpressJS](http://thingsinjars.com/post/446/museum140-shorty/) by [@thingsinjars](http://twitter.com/thingsinjars)
 
 
 If you have used impress.js in your presentation (or website) and would like to have it listed here,
