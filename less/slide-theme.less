@@ -1,0 +1,83 @@
+//
+// Slide Step Styles
+// inspired by: http://html5slides.googlecode.com/svn/trunk/styles.css
+// ----------------------------------------
+
+// Variables
+
+@bg: #d7d7d7;
+@bg-start: lighten(@bg, 10%);
+@bg-finish: darken(@bg, 10%);
+
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    
+    min-height: 740px;
+
+    background: @bg;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(@bg-start), to(@bg-finish));
+    background: -webkit-radial-gradient(@bg-start, @bg-finish);
+    background:    -moz-radial-gradient(@bg-start, @bg-finish);
+    background:      -o-radial-gradient(@bg-start, @bg-finish);
+    background:         radial-gradient(@bg-start, @bg-finish);
+
+    -webkit-font-smoothing: antialiased;
+}
+
+b, strong { font-weight: bold }
+i, em { font-style: italic}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    padding: 0 0.1em;
+    background: rgba(255,255,255,0.5);
+    text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
+    border-radius: 0.2em;
+    
+    transition:         0.5s;
+}
+
+a:hover {
+    background: rgba(255,255,255,1);
+    text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
+}
+
+.slide {
+    display: block;
+
+    width: 900px;
+    height: 700px;
+
+    padding: 40px 60px;
+
+    border-radius: 10px;
+
+    background-color: white;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, .3);
+
+    font-family: 'Open Sans', Arial, sans-serif;
+
+    color: rgb(102, 102, 102);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    font-size: 30px;
+    line-height: 36px;
+
+    letter-spacing: -1px;
+}
+
+.slide q {
+    display: block;
+    font-size: 50px;
+    line-height: 72px;
+
+    margin-top: 100px;
+}
+
+.slide q strong {
+    white-space: nowrap;
+}
